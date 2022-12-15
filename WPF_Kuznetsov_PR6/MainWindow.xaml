@@ -25,5 +25,6 @@
         <Frame x:Name="FrmMain" NavigationUIVisibility="Hidden" Grid.Row="1">
 
         </Frame>
+        <Button Content="Перейти на страницу с календарем" Width="200" Height="25" VerticalAlignment="Center" HorizontalAlignment="Right" Click="Button_Click"/>
     </Grid>
 </Window>

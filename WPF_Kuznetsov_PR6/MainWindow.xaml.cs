@@ -30,5 +30,11 @@ namespace WPF_Kuznetsov_PR6
 
             FrmMain.Navigate(new PageLogin()); //подключение во фрейм стартовой страницы авторизации
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Window1 window1 = new Window1();
+            window1.Show();
+        }
     }
 }
