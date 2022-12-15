@@ -5,7 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Kuznetsov_PR6.PageMain"
         mc:Ignorable="d"
-        Title="Window1" Height="450" Width="800">
+        Title="Окно календаря" MinHeight="450" MinWidth="800" MaxHeight="450" MaxWidth="800">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF6AD9FF"/>
+            <GradientStop Color="White" Offset="0.591"/>
+        </LinearGradientBrush>
+    </Window.Background>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="15*"/>
